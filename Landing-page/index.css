@@ -74,7 +74,6 @@ margin-left: 40px;
     margin-top: 22px;
     margin-right:35px;
 
-    
     }
 
     .icon-car-brand3{
@@ -236,7 +235,10 @@ li{
 
     .card-components{
 
-width: 100%;
+width: 80%;
+display: block;
+margin-left: auto;
+margin-right: auto;
 background-color: white;
 min-height:36vh;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.041), 0 6px 20px 0 rgba(0, 0, 0, 0.014);
@@ -325,5 +327,10 @@ min-height: 55vh;
     margin-top: 35px;
  margin-bottom: 50px;
 
+}
 
+.side{
+    width: 25px;
+    float: right;
+    margin-top: 20px;
 }
