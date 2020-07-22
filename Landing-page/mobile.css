@@ -6,6 +6,30 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
 
+.product-title{
+
+    font-family: 'Oswald', sans-serif;
+    font-size:12px;
+    padding-left:100px;
+    margin-top:-180px;
+}
+
+
+.rr{
+    padding-left: 100px;
+    margin-top:10px;
+    font-family: 'Lato', sans-serif;
+  font-size:11px;
+   }
+
+   .rr2{
+    padding-left: 100px;
+    margin-top:-5px;
+    padding-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size:11px;
+    }
+
     .logo{
         width:65px;
         margin-top:15px;
@@ -208,6 +232,42 @@ and (max-height:1440px)
  and (-webkit-max-device-pixel-ratio:2)
  {
 
+
+    .listing-card-category{
+        background-color: white;
+        border: transparent;
+        min-height:17vh;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:20px;
+       }
+    
+
+.product-title{
+
+    font-family: 'Oswald', sans-serif;
+    font-size:12px;
+    padding-left:130px;
+    margin-top:-230px;
+}
+
+
+.rr{
+    padding-left: 130px;
+    margin-top:10px;
+    font-family: 'Lato', sans-serif;
+  font-size:11px;
+   }
+
+   .rr2{
+    padding-left: 130px;
+    margin-top:-5px;
+    padding-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size:11px;
+    }
 
 
     .logo{
@@ -412,6 +472,47 @@ and (max-height:1440px)
 
  /*landscape*/
  @media only screen and (min-width: 568px) and (max-width: 812px) and (orientation:landscape) {
+
+  
+    .product-title{
+
+        font-family: 'Oswald', sans-serif;
+        font-size:13px;
+        padding-left: 200px;
+        margin-top:-80px;
+    }
+
+
+.rr{
+    padding-left: 200px;
+    margin-top:10px;
+    font-family: 'Lato', sans-serif;
+  font-size:11px;
+   
+    
+}
+
+.rr2{
+    padding-left: 200px;
+    margin-top:10px;
+    padding-bottom: 7px;
+    font-family: 'Lato', sans-serif;
+    font-size:11px;
+    }
+
+
+    .listing-card-category{
+        background-color: white;
+        border: transparent;
+        min-height:27vh;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:20px;
+    }
+    
+
 
 
     .header-footer-link{
