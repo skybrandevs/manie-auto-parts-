@@ -158,7 +158,7 @@
                   }
 
                   .bac-img{
-                    background-image: url(images/ok.png);
+                    background-image: url(../images/ok.png);
                     min-height:50vh;
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -398,7 +398,7 @@ and (max-height:1440px)
                   }
 
                   .bac-img{
-                    background-image: url(images/ok.png);
+                    background-image: url(../images/ok.png);
                     min-height:50vh;
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -561,7 +561,7 @@ and (max-height:1440px)
 
 
     .bac-img{
-        background-image: url(images/ok.png);
+        background-image: url(../images/ok.png);
         min-height: 43vh;
         background-repeat: no-repeat;
         background-size: cover;

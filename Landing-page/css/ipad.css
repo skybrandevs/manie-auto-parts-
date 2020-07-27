@@ -98,7 +98,7 @@ and (device-height: 768px){
         
 
           .bac-img{
-            background-image: url(images/ok.png);
+            background-image: url(../images/ok.png);
             min-height: 25vh;
             background-repeat: no-repeat;
             background-size: cover;
@@ -168,7 +168,7 @@ and (device-height: 1024px){
 
 
   .bac-img{
-    background-image: url(images/ok.png);
+    background-image: url(../images/ok.png);
     min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;

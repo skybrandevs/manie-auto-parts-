@@ -148,7 +148,7 @@ margin-left: 40px;
 
 
             .bac-img{
-                background-image: url(images/ok.png);
+                background-image: url(../images/ok.png);
                 min-height: 43vh;
                 background-repeat: no-repeat;
                 background-size: cover;
