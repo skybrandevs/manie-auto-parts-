@@ -483,13 +483,19 @@ input{
 
 .main-detials-header{
 font-family: 'Oswald', sans-serif;
-font-size:20px;
+font-size:18px;
+margin-top: 30px;
+margin-bottom:20px;
 }
 
 .location-icon{
 margin-top: 20px;
-font-size: 15px;
+font-size: 13px;
 font-family: 'Lato', sans-serif;
+}
+
+.ll{
+    margin-right: 12px;
 }
 
 .card-main-listing{
@@ -503,6 +509,77 @@ font-family: 'Lato', sans-serif;
     border-radius: 5px;
     padding: 50px 50px 50px 50px;
     margin-bottom: 100px;
+}
 
+.item-descreption{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif; 
+}
+
+.spec-header{
+ font-family: 'Oswald', sans-serif;   
+}
+
+.output{
+
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif !important; 
+    font-size: 12px;
+}
+
+.card-price{
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif; 
+    font-size:15px;
+    margin-bottom: 20px;
+}
+
+
+.card-price-2{
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif; 
+    font-size:15px;
+    margin-bottom: 25px;
+   margin-top:25px;
+}
+
+
+.card-name{
+    font-family: 'Lato', sans-serif; 
+    color: whitesmoke;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.show-button{
+
+    background-color: yellow;
+    width: 100%;
+    min-height:7vh;
+    margin-top:30px;
+    border: transparent;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.show-ll{
+    margin-left: -10px;
+    margin-right:10px;
+}
+
+.safety-text{
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+    font-size:12.5px;   
+}
+
+.btn-report-abuse{
+
+    background-color: white;
+    min-height:6vh;
+    border: transparent;
+    border-radius: 5px;
+    width:55%;
+    font-family: 'Oswald', sans-serif;
 
 }
