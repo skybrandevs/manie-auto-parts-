@@ -1,3 +1,5 @@
+/*dynamic page change javascript **/
+
 $(function() {
 
     var newHash      = "",
