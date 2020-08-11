@@ -172,6 +172,19 @@ li:hover{
 }
 
 
+
+.card-component-module-2{
+
+    width: 100%;
+    background-color: white;
+    min-height: 60vh;
+    border-radius: 3px;
+    margin-top:25px;
+    padding: 35px 35px 35px 35px;
+}
+
+
+
 .input-1{
     width: 48%;
     margin-left: 10px;
