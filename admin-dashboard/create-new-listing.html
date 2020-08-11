@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css"/>
 
-    <title>Maine auto parts | Create a dealer </title>
+    <title>Maine auto parts | Create a listing </title>
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
     <script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
     <script type='text/javascript' src='js/dynamicpage.js'></script>
@@ -203,8 +203,8 @@ CREATE <img src="icons/keyboard_arrow_down-24px (2).svg" class="img-fluid icon-s
 
 <div id="guts">
 
-    <h3 class="intro-dash-agent"> Add new dealer</h3>
-<p class="outro-dash">create a new dealer account</p>
+    <h3 class="intro-dash-agent"> Add new listing</h3>
+<p class="outro-dash">create a new listing</p>
 
 
     <div class="row">
@@ -212,15 +212,50 @@ CREATE <img src="icons/keyboard_arrow_down-24px (2).svg" class="img-fluid icon-s
             <div class="card-component-module-2">
                 
                <form>
-                   <input class="input-1" type="text" placeholder="Enter first name" required/>
-                   <input class="input-1" type="text" placeholder="Enter second name" required/>
-                   <input class="input-1" type="email" placeholder="Valid email address" required/>
-                   <input class="input-1" type="password" placeholder="Set a default password ****" required/>
-                   <input class="input-1" type="password" placeholder="Re-type password ****" required/>
-                   <input class="input-1" type="number" placeholder="Valid mobile number" required/>
-                   <input class="input-1" type="text" placeholder="Company name"/>
-                   <input class="input-1" type="text" placeholder="Enter address"/>
-                   <button class="btn-dash" type="submit">Create</button>
+                   <input class="input-1" type="text" placeholder="Item name" required/>
+                     <select>
+                      <option value="0">Select dealer</option>
+                      <option value="1">yusuf ventures</option>
+                      <option value="2">jac motors</option>
+                      </select>
+                      <select>
+                        <option value="0">Select Car brand</option>
+                        <option value="1">Audi</option>
+                        <option value="2">BMW</option>
+                        <option value="2">Benz</option>
+                        <option value="2">toyota</option>
+                        </select>
+
+                        <select>
+                            <option value="0">Listing Category</option>
+                            <option value="1">Mechanical</option>
+                            <option value="2">electrical</option>
+                           
+                            </select>
+
+                            <select>
+                                <option value="0">Item condition</option>
+                                <option value="1">Tokunbo (fairly used)</option>
+                                <option value="2">New (cha cha)</option>
+                               
+                                </select>
+
+                                <input class="input-1" type="text" placeholder="Part model number or name"/>
+                                <input class="input-1" type="date" placeholder="Year of manufacture"/>
+                                <input class="input-1" type="number" placeholder="selling price e.g ₦50,000"/>
+                                <textarea>Enter item descreption</textarea>
+
+                            
+                                <input id="file" type="file" accept="image/*">
+                                <label for="file">
+                                    <i><img src="icons/round_center_focus_strong_white_18dp.png" class="round"/></i> upload item image
+                                </label>
+                              
+
+                   <button class="btn-dash-2" type="submit">Create</button>
+                              
+            
+                  
                </form>
 
             </div>
@@ -247,8 +282,6 @@ CREATE <img src="icons/keyboard_arrow_down-24px (2).svg" class="img-fluid icon-s
 
 </div>
   
-
-
 
 
     <!-- Optional JavaScript -->
